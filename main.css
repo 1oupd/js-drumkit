@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
 
 body {
-    background-color:rgb(253, 247, 252);
+  background-color: rgb(253, 247, 252);
 }
 
 audio {
-     display:none;
-    }
+  display: none;
+}
 
 .drums {
   display: flex;
@@ -24,61 +24,50 @@ audio {
   background-color: darkolivegreen;
   width: 10%;
   margin: 0.25em 0.25em 0.25em 3em;
-  border-radius:7px;
+  border-radius: 7px;
+}
+
+.clap,
+.hihat,
+.kick,
+.openhat,
+.ride,
+.snare,
+.tink,
+.tom {
+  width: 10%;
+  margin: 0.25em 0.25em 0.25em 0.25em;
+  border-radius: 7px;
 }
 
 .clap {
   background-color: palegreen;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
 
 .hihat {
   background-color: lightseagreen;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
 
 .kick {
   background-color: blueviolet;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
 
 .openhat {
   background-color: goldenrod;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
 
 .ride {
   background-color: palevioletred;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
 
 .snare {
   background-color: peru;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
 
 .tink {
   background-color: yellowgreen;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
 
 .tom {
   background-color: cornflowerblue;
-  width: 10%;
-  margin: 0.25em 0.25em 0.25em 0.25em;
-  border-radius:7px;
 }
