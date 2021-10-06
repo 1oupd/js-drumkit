@@ -4,6 +4,10 @@ body {
     background-color:rgb(253, 247, 252);
 }
 
+audio {
+     display:none;
+    }
+
 .drums {
   display: flex;
   flex-wrap: wrap;
